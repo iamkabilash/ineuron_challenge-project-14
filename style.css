@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 35vw;
+}
+.left img{
+    width: 35vw;
+    height: auto;
+}
+.logo-div{
+    position: fixed;
+    top: 60px;
+    left: 80px;
+}
+.logo{
+    width: 100px;
+}
+.width-space{
+    width: 50px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    float: right;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-line{
+    height: 2px;
+    width: 400px;
+    background-color: #000;
+    margin-left: -40px;
+}
+.nav-item{
+    cursor: pointer;
+    color: #646464;
+    margin-left: 50px;
+    align-items: center;
+    font-weight: 600;
+}
+.nav-item:hover{
+    color: #000;
+}
+.creativity{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.creativity #crea{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    color: #fff;
+    -webkit-text-stroke: 1px #414141;
+}
+.creativity #tivity{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    margin-left: 100px;
+    color: #414141;
+}
+.creativity-col-2{
+    margin-top: 160px;
+    margin-left: 70px;
+}
+.creativity-col-2 #ingredient{
+    font-size: 20px;
+    color: #414141;
+    letter-spacing: 1.5px;
+}
+.creativity-col-2 #package{
+    margin-top: 25px;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #414141;
+    border: none;
+    cursor: pointer;
+}
+.creativity-col-2 #package:hover{
+    background-color: #000000;
+}
+.graphy{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.graphy-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.graph{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+.graph .bullet{
+    width: 7px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: #414141;
+}
+.graph h5{
+    margin-left: 15px;
+    font-size: 18px;
+}
+.graph-space{
+    height: 50px;
+    width: 1px;
+    background-color: #414141;
+    margin-left: 3px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+.graphy-right{
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+    margin-left: auto;
+    margin-top: -20px;
+}
+.graphy-right #quote{
+    font-family: 'Secular One', sans-serif;
+    font-size: 100px;
+    color: #414141;
+}
+.graphy-right #quote-text{
+    margin-top: -50px;
+}
+.graphy-right img{
+    width: 300px;
+    margin-top: 10px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 80px;
+    right: 30px;
+}
+.social img{
+    width: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.arrow{
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+}
+.arrow img{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
