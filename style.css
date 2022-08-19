@@ -172,3 +172,190 @@ nav{
     width: 100px;
     cursor: pointer;
 }
+
+/* ----- media queries ------ */
+
+@media only screen and (max-width: 1380px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        width: 35vw;
+    }
+    .left img{
+        display: none;
+        width: 35vw;
+        height: auto;
+    }
+    .logo-div{
+        display: none;
+        position: fixed;
+        top: 60px;
+        left: 80px;
+    }
+    .logo{
+        width: 100px;
+    }
+    .width-space{
+        width: 50px;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        float: right;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #nav-line{
+        display: none;
+        height: 2px;
+        width: 400px;
+        background-color: #000;
+        margin-left: -40px;
+    }
+    .nav-item{
+        cursor: pointer;
+        color: #646464;
+        margin-left: 20px;
+        align-items: center;
+        font-weight: 600;
+    }
+    .nav-item:hover{
+        color: #000;
+    }
+    .creativity{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .creativity #crea{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 70px;
+        color: #fff;
+        -webkit-text-stroke: 1px #414141;
+    }
+    .creativity #tivity{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 70px;
+        margin-left: 100px;
+        color: #414141;
+    }
+    .creativity-col-2{
+        margin-top: 160px;
+        margin-left: 7vw;
+        margin-right: 10px;
+    }
+    .creativity-col-2 #ingredient{
+        font-size: 17px;
+        color: #414141;
+        letter-spacing: 1.5px;
+    }
+    .creativity-col-2 #package{
+        margin-top: 25px;
+        width: 140px;
+        height: 35px;
+        border-radius: 5px;
+        font-size: 13px;
+        color: #fff;
+        background-color: #414141;
+        border: none;
+        cursor: pointer;
+    }
+    .creativity-col-2 #package:hover{
+        background-color: #000000;
+    }
+    .graphy{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .graphy-left{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .graph{
+        display: inline-flex;
+        align-items: center;
+        text-align: center;
+    }
+    .graph .bullet{
+        width: 7px;
+        height: 7px;
+        border-radius: 5px;
+        background-color: #414141;
+    }
+    .graph h5{
+        margin-left: 15px;
+        font-size: 18px;
+    }
+    .graph-space{
+        height: 50px;
+        width: 1px;
+        background-color: #414141;
+        margin-left: 3px;
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+    .graphy-right{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .graphy-right #quote{
+        font-family: 'Secular One', sans-serif;
+        font-size: 100px;
+        color: #414141;
+    }
+    .graphy-right #quote-text{
+        margin-top: -50px;
+    }
+    .graphy-right img{
+        width: 70vw;
+        margin-top: 30px;
+        align-items: center;
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10vw;
+        position: relative;
+        margin-top: 50px;
+        top: 0px;
+        right: 0px;
+        margin-bottom: 50px;
+    }
+    .social img{
+        width: 25px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    .arrow{
+        display: none;
+        position: fixed;
+        bottom: 50px;
+        right: 0px;
+    }
+    .arrow img{
+        height: 100px;
+        width: 100px;
+        cursor: pointer;
+    }
+}
